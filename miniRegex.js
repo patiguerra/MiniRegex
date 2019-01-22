@@ -52,15 +52,6 @@ function miniRegex(pattern, text){
 
 var ret = miniRegex("cat|dog", "both cat and dog are here");
 
-//Test cases:
-//miniRegex("cat|dog", "both cat and dog are here")
-//miniRegex("cat|xxx", "both cat and dog are here")
-//miniRegex("dog", "both cat and dog are here")
-//miniRegex("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "both cat and dog are here")
-//miniRegex("", "both cat and dog are here")
-//miniRegex("dog|cat", "")
-//miniRegex("dog", "my dog is the most beautiful dog")
-//miniRegex("dog|dog", "my dog is the most beautiful dog")
 for(var i = 0; i< ret.length; i++){
     console.log(ret[i]);
 }
